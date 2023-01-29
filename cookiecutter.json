@@ -9,5 +9,6 @@
     "hg",
     "git"
   ],
-  "github_respository_url": ""
+  "github_respository_url": "",
+  "use_vscode": true
 }

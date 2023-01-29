@@ -3,6 +3,9 @@ name = "{{cookiecutter.project_name}}"
 version = "0.1.0"
 description = ""
 authors = ["{{cookiecutter.author}} <{{cookiecutter.email}}>"]
+packages = [
+    { include = "{{cookiecutter.project_slug}}""}
+]
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
@@ -28,6 +31,7 @@ filterwarnings = ["ignore::DeprecationWarning"]
 [tool.mypy]
 ignore_missing_imports = true
 disallow_untyped_defs = true
+strict = true
 
 [tool.ruff]
 line-length = {{cookiecutter.line_length}}

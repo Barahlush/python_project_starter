@@ -18,3 +18,5 @@ git add -A .
 git commit -m "$commit_message"
 
 make install_hooks
+
+touch .env

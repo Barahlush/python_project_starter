@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["{{cookiecutter.author}} <{{cookiecutter.email}}>"]
 packages = [
-    { include = "{{cookiecutter.project_slug}}""}
+    { include = "{{cookiecutter.project_slug}}"}
 ]
 
 [build-system]
